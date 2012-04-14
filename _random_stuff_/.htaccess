@@ -1,0 +1,8 @@
+IndexIgnore *
+AddHandler php5-script .php
+
+# let's enable php (non-cgi, aka. 'module') for EVERYTHING..'
+AddType application/x-httpd-php5 .htm .html .php .blog .comment .inc
+
+php_value register_globals off
+

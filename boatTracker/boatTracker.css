@@ -1,0 +1,73 @@
+v\:* {
+behavior:url(#default#VML);
+}
+
+/* ----- CSS ----- */
+
+body{
+margin:20px;
+padding:0;
+font-family: Arial, Helvetica, Verdana, sans-serif;
+font-size:1em; /* body font size declared to be the same size as the parent font size */
+background-color:#fff;
+}
+
+/* ----- IDs ----- */
+
+#header{
+height:40px;
+line-height:40px;
+width:99%;
+margin:0 0 20px 0;
+border:1px solid #bfd3ec;
+position:relative;
+background: url(images/workoutTracker.jpg) no-repeat #DCECFB;
+}
+
+#container{
+position:relative;
+padding:0;
+margin:0 2px 0 2px;
+clear:both;
+}
+
+#map{
+position:relative;
+width:99%;
+height:420px;
+margin:0;
+border:1px solid #ccc;
+background-color:#eee;
+text-align:left;
+font-size:.7em; /* font size declared to be 70% of the size as the parent element size */
+}
+
+#loadstatus{
+position:absolute;
+bottom:0;
+left:0;
+z-index:1000;
+width:99%;
+line-height:30px;
+height:30px;
+border:1px solid #ccc;
+text-align:left;
+background-color:#fff;
+}
+
+#information{
+position:absolute;
+bottom:0;
+z-index:1500;
+font-size:1em; /* font size declared to be 50% of the size as the parent element size */
+text-align:center;
+width:100%;
+}
+
+#progress{
+font-size:1em; /* font size declared to be 50% of the size as the parent element size */
+height:100%;
+width:0%;
+background-color:#DDEFA4;
+}
+

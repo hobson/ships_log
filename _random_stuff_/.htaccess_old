@@ -1,0 +1,21 @@
+IndexIgnore *
+
+AuthUserFile /home/hobson/.htpasswd
+AuthGroupFile /dev/null
+AuthName EnterPassword
+AuthType Basic
+
+require user hobson
+
+<Limit GET>
+order allow,deny
+deny from 128.23.45.
+deny from 207.158.255.213
+allow from all
+</Limit>
+
+<FILES .htaccess>
+order allow,deny 
+deny from all
+</FILES>
+

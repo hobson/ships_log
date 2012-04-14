@@ -1,0 +1,99 @@
+body {
+ background-color:rgb(245,245,220);
+ font-family:Verdana,Arial,sans-serif;
+ font-size:80%;
+ margin:0% 0.5% 1% 1%;
+ color:rgb(40,20,0);
+ text-align:left;
+ float:left;
+ padding: 1%
+}
+
+h1 { color: rgb(40,20,0); font-size: 130%; } 
+h2 { color: rgb(40,20,0); font-size: 110%; } 
+h3 { color: rgb(40,20,0); font-size: 110%; } 
+
+.Title { font-weight: bold; font-size: 110%; }
+.Author {  font-style: italic; font-size: 80%; }
+.Date { font-style: italic; font-size: 80%; }
+.LatLon { font-style: italic; font-size: 80%; }
+.Text { font-size: 90%; }
+
+.EntryDate { font-style: italic; font-size: 80%; }
+.StartDate { font-style: italic; font-size: 80%; }
+.UploadDate { font-style: italic; font-size: 80%; }
+
+a:link { color: rgb(100,50,50); }
+a:visited { color: rgb(170,90,90); }
+a:active { color: rgb(120,0,0); }
+a:hover { color: rgb(150,0,0); }
+
+/* reduce the font size and reduce the line spacing after a paragraph */
+p { font-size: 90%; }
+
+
+#banner { margin:0px;  padding:10px }
+
+/* 2 things prevent divs and pictures from wrapping around:
+using IDs (#...) rather than just classes 
+allocating percentages that total 98% or less 
+(need to check browser compatability for both of these tricks)
+*/
+
+#maincenter { 
+  width:78%;
+  float:left;
+/*  background-color:rgb(250,250,230); */
+/*  padding:1%; */
+/*  border-style: solid;
+  border-color: rgb(0,40,0); */
+ }
+  
+/*
+Example control of internal and external links and visited links differently
+A:link { color: blue; background: #FCFCFC;}
+A:visited { color: navy; background: #FCFCFC;}
+A:active { color: White; background: #A21; }
+
+A.ext:link { color: green; background: #FCFCFC;}
+A.ext:visited { color: olive; background: #FCFCFC;}
+A.ext:active { color: White; background: Black; }
+
+(must use <A CLASS=ext HREF=...> tag for external links for this to work)
+*/  
+  
+#mainleft {
+  width:20%;
+  float:left; 
+} 
+ 
+#mainright { 
+  width:20%;
+  float:right; }
+
+ 
+/* to fade out the nonworking menus */
+a.faded { color: rgb(200,200,180); }
+a.fadedmore { color: rgb(220,220,200); }
+h1.faded { color: rgb(200,200,180); }
+h1.fadedmore { color: rgb(220,220,200); }
+h2.faded { color: rgb(200,200,180); }
+h2.fadedmore { color: rgb(220,220,200); }
+
+.FloatRight { 
+  float: right;
+  border-width: 5px; 
+  border-style: solid; 
+  border-color: rgb(40,20,0);
+  margin: 0.5%; 
+}
+
+.FloatLeft { 
+  float: left;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(40,20,0);
+  margin: 0.5%;
+}
+
+

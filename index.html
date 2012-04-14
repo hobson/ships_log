@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>Sailing Experiences</title>
+</head>
+
+<body>
+  <script language="JavaScript" src="_random_stuff_/JavaScriptLib2.js" type="text/javascript">
+  </script>
+<style type="text/css" media="all">
+  @import "styles.css";
+</style>
+
+<div id="banner">
+<h1>This is the story of two people attempting to sail around the world</h1>
+<p>We have another incomplete blog at <a href="http://sail-australis.blogspot.com/">blogspot</a>, but it's even more geeky and rambling than this one.</p>
+<p>Our radio check-in log may still be available at <a href="http://www.pangolin.co.nz/yotreps/tracker.php?ident=KG6TOD">KG6TOD</a> on YOTREPS. A big thanks to the PacSea Net and Yotreps 
+for keeping us safe all these years.</p> 
+<p>Fortunately we should be consolidating all this sailing blog stuff in one place soon and this site will get an overhaul as it turns into a business (now that we're out of money 
+and returning to a more normal land-locked life).</p>
+</div>
+</div>
+
+<div id="mainleft">
+  <h2 class="fadedmore">Fetch an Article by ID...</h2>
+  <form  action="javascript:getServerText(document.getElementById('SearchText').value)">
+  <input type="text" id="SearchText" name="SearchText" size=12 default="default" ></input> <br />
+  <input type="submit" name="Fetch" value="Fetch" onClick="getServerText(document.getElementById('SearchText').value)">  <br />
+  </form>
+  <h2>View by Date...</h2>
+<script type="text/javascript">
+<!--
+//for (m=1;m<4;m++)
+//  displayRecentLink(m);
+displayMonthLinks(-48); // neg = display dates in reverse order, most recent on top, 24 = display a maximum of 24 months from now (back 2 years)
+-->
+</script>
+  <br /><br /><br /><br /><br /><br />
+  <br style="clear: both;" />
+</div>
+
+<div id='maincenter'>
+<script type="text/javascript">
+<!--
+displayRecent(48);
+-->
+</script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?php
+include_once("process_text.php");
+$s0="1.2";
+$s=is_lat($s0);
+echo "lat=$s<br>\n";
+$s=is_lon($s0="2.3");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="03.45");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="05.678910");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="-1.2");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="-2.3");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="-03.45");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="-05.678910");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="1 deg 2' N");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="2 deg 3' E");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="03 deg 45' N");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="05 deg 59.234' W ");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="-1 deg 2'");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="-2 deg 3'");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="-03 deg 45'");
+echo "lat=$s<br>\n";
+$s=is_lon($s0="-05 deg 59.234'");
+echo "lon=$s<br>\n";
+$s=is_lat($s0="17 deg 29.565' S");
+echo "lat=$s<br>\n";
+?>
